@@ -1,0 +1,11 @@
+file:
+  encoding: UTF-8
+
+spring:
+  mandatory-file-encoding: UTF-8
+  messages:
+    basename: messages/messages
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
